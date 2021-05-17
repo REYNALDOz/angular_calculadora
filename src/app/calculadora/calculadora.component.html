@@ -1,0 +1,19 @@
+
+<div  class='container'>
+  NUMERO A: <input class='form-control' type="number" (input)='SetnumeroA($event)'><br><br>
+  NUMERO B: <input class='form-control' type="number" (input)='SetnumeroB($event)'><br><br>
+  <div  class="nav justify-content-center">
+      <button type="submit" (click)='sumar()' class='btn btn-danger'>SUMAR</button>
+      <button type="submit" (click)='multiplicar()' class='btn btn-warning'>MULTIPLICAR</button>
+      <button type="submit" (click)='dividir()' class='btn btn-success'>DIVIDIR</button>
+  </div><br><br>
+
+  EL RESULTADO ES: {{resultado}}
+</div>
+
+
+
+
+
+
+
